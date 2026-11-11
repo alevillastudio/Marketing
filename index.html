@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bodega Tres Cumbres · Valle de Uco, Mendoza</title>
+<meta name="description" content="Bodega boutique familiar en el Valle de Uco, Mendoza. Conocé nuestros vinos y reservá tu visita.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="top">
+  <a class="logo" href="#inicio">Bodega Tres Cumbres</a>
+  <button class="burger" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav id="menu" aria-label="Principal">
+    <ul>
+      <li><a href="#identidad">La bodega</a></li>
+      <li><a href="#vinos">Vinos</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#familia">Familia</a></li>
+      <li><a class="btn js-reserva" href="#contacto">Reservá tu visita</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="inicio">
+  <!-- HERO · FOTO: PORTADA (reemplazar por foto propia, ideal 2400×1400 px, horizontal) -->
+  <section class="hero" aria-label="Bodega Tres Cumbres">
+    <img src="img/portada.jpg" alt="Viñedo al atardecer con la cordillera de los Andes nevada al fondo" fetchpriority="high">
+    <div class="hero-in">
+      <h1>La tierra, el tiempo y el vino</h1>
+      <p>Una bodega boutique familiar en el Valle de Uco, Mendoza. Vinos hechos al pie de la cordillera, para compartir.</p>
+      <div class="acts">
+        <a class="btn light js-reserva" href="#contacto">Reservá tu visita</a>
+        <a class="btn ghost" href="#vinos">Descubrí nuestros vinos</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="identidad" class="wrap intro">
+    <p class="lead">Al pie de los Andes, el paisaje marca el ritmo: cada hilera, cada estación y cada copa vienen de este lugar.</p>
+    <div>
+      <h2>Una bodega a escala humana</h2>
+      <!-- TEXTO PROVISORIO: reemplazar por la presentación real de la bodega -->
+      <p>Bodega Tres Cumbres es un proyecto familiar en el Valle de Uco. Acá el vino es una excusa para recibir, mostrar el lugar y sentarse a la mesa.</p>
+      <p>Te invitamos a recorrer los viñedos, probar nuestros vinos y conocernos.</p>
+    </div>
+  </section>
+
+  <!-- VINOS · FOTO: las 3 botellas de Tres Cumbres, ~2000×1100 px -->
+  <section id="vinos" class="vinos">
+    <div class="wrap">
+      <h2>Nuestros vinos</h2>
+      <figure>
+        <img src="img/botellas-vinos.jpg" alt="Botellas de Malbec joven, Blend de guarda y Espumante natural de Bodega Tres Cumbres sobre una mesa de madera, frente al viñedo" loading="lazy">
+      </figure>
+      <div class="lista">
+        <!-- TEXTOS PROVISORIOS: completar con notas de cata, variedades, añada y elaboración reales -->
+        <article class="vino">
+          <h3>Malbec joven</h3>
+          <p>Un tinto fresco y directo, pensado para disfrutar sin ceremonias.</p>
+          <span class="tag">Descripción provisoria</span>
+        </article>
+        <article class="vino">
+          <h3>Blend de guarda</h3>
+          <p>Un vino para esperar y compartir en las ocasiones que se recuerdan.</p>
+          <span class="tag">Descripción provisoria</span>
+        </article>
+        <article class="vino">
+          <h3>Espumante natural</h3>
+          <p>Burbujas para brindar, a la hora del encuentro.</p>
+          <span class="tag">Descripción provisoria</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA · FOTO: Malbec joven en la sala de barricas, ~1600×1000 px -->
+  <section id="experiencia" class="wrap exp">
+    <img src="img/experiencia-malbec.jpg" alt="Botella de Malbec joven de Bodega Tres Cumbres y una copa de vino tinto sobre una mesa de madera, en la sala de barricas" loading="lazy">
+    <div>
+      <h2>Vivir la bodega</h2>
+      <p>Una visita pensada para ir despacio y conocer el lugar donde nace cada vino.</p>
+      <ul class="pasos">
+        <li><strong>Recorrido</strong><span>Por la bodega y su entorno.</span></li>
+        <li><strong>Degustación</strong><span>De nuestros vinos.</span></li>
+        <li><strong>Mesa compartida</strong><span>Comida para acompañar.</span></li>
+      </ul>
+      <p class="note">Precios, duración, horarios y disponibilidad: consultanos.</p>
+      <a class="btn js-reserva" href="#contacto">Consultá disponibilidad</a>
+    </div>
+  </section>
+
+  <!-- FAMILIA · FOTO: PAISAJE (provisoria). Reemplazar por foto real de la familia o la bodega, ~1600×1000 px -->
+  <section id="familia" class="familia">
+    <div class="wrap fam">
+      <img src="img/familia-paisaje.jpg" alt="Hileras de viñedo verde con montañas nevadas y cielo azul" loading="lazy">
+      <div>
+        <h2>La familia y la bodega</h2>
+        <!-- HISTORIA PROVISORIA: completar con nombres, orígenes, fechas y modo de trabajo reales -->
+        <p>Detrás de cada botella hay personas, una tierra y muchas horas de trabajo. Esta sección va a contar esa historia con palabras de la propia familia.</p>
+        <span class="tag">Historia por completar</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CIERRE · FOTO: reutiliza PORTADA. Opcional: otra foto de paisaje, ~2000×1200 px -->
+  <section class="cierre" id="contacto">
+    <img src="img/portada.jpg" alt="" loading="lazy">
+    <div class="wrap">
+      <h2>Te esperamos en el Valle de Uco</h2>
+      <p>Escribinos y coordinamos tu visita.</p>
+      <div class="acts">
+        <a class="btn light js-reserva" href="#contacto">Reservá tu visita</a>
+        <a class="btn ghost js-mail" href="#contacto">Escribinos por mail</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>Bodega Tres Cumbres</h3>
+      <p>Valle de Uco, Mendoza, Argentina</p>
+      <p>Dirección: [EDITAR: dirección exacta]</p>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>WhatsApp: <a class="js-wa-text" href="#contacto">[EDITAR]</a></p>
+      <p>Mail: <a class="js-mail-text" href="#contacto">[EDITAR]</a></p>
+    </div>
+    <div>
+      <h4>Redes</h4>
+      <p>Instagram: [EDITAR]</p>
+      <p>Facebook: [EDITAR]</p>
+    </div>
+    <p class="legal">© <span id="year"></span> Bodega Tres Cumbres. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
